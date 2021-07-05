@@ -1,0 +1,39 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block title %}
+Home
+{% endblock title %}
+{% block content %}
+
+<div class="">
+    <div class="mt-5 text-center">
+        <img src="{% static 'core/images/om.jpeg' %}" alt="ProfilePic" class="img-thumbnail " width="200px"
+            height="150px">
+
+    </div>
+
+    <div class="text-white mt-2 mx-5">
+        <h1 class="font-weight-bold st-font">Hello!</h1>
+        <div class="text-justify px-4" style="line-height: 2rem;">
+            <p style="text-indent: 50px;">
+                 My name is <b class="text-warning"> Om Prakash </b> and I enjoy creating things that live on the
+                internet. My interest in web development started back in 2018 when I decided to learn more about <b
+                    class="text-warning"> Frontend Technologies (HTML, CSS, JAVASCRIPT) </b>
+            </p>
+
+
+            <p>Later I worked hard for Web Developer specalized in FrontEnd development and BackEnd development
+                through <b class="text-warning">Python Django Framework </b> </p>
+
+            <p>Well-versed in numerous programming languages and technolog including PYTHON, C/C++, JAVASCRIPT, HTML5, OOP, CSS,
+                BOOTSTRAP.
+            </p>
+        </div>
+    </div>
+    <div class="text-center">
+        <a href="{% url 'services' %}" class="btn btn-outline-warning my-3 mx-2 mr-5">My Services</a>
+        <a href="{% url 'contact' %}" class="btn btn-outline-info mr-5 mx-2 my-3">Contact Me</a>
+    </div>
+</div>
+
+{% endblock content %}

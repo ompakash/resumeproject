@@ -1,0 +1,54 @@
+/* vertical line */
+.vl {
+  border-left: 2px solid white;
+  height: 100%;
+  position: absolute;
+  left: 18%;
+  margin-left: -3px;
+  top: 0;
+}
+
+/* HORIZONTAL LINE */
+.hr {
+  border: 3px solid greenyellow;
+  border-style: solid;
+  border-radius: 3px;
+}
+
+/* Font */
+.st-font{
+  font-family: 'Satisfy', cursive;
+}
+
+html,body{
+  height: 100%;
+}
+
+.container-fluid{
+  min-height: 100%;
+}
+
+/* SERVICE ICON COLOR */
+.i-color{
+  color: chartreuse;
+}
+
+/* Service Subtitle Color */
+.ss-color{
+  color: whitesmoke;
+}
+
+a.nav-link{
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+a.nav-link:hover{
+  color: black;
+  background-color: #e9cd79;
+}
+
+a.nav-link.active{
+  color: black;
+  background-color: #ffc107; 
+}
